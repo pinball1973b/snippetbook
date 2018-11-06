@@ -2,18 +2,21 @@
 <div class="wrap">
   <headerNormal />
   <colmunLeft />
+  <footerNormal />
 </div>
 </template>
 
 <script>
 import headerNormal  from '@/components/molecules/header/headerNormal'
 import colmunLeft  from '@/components/molecules/column/colmunLeft'
+import footerNormal  from '@/components/molecules/footer/footerNormal'
 
 export default {
   name: 'Index',
   components: {
     headerNormal,
-    colmunLeft
+    colmunLeft,
+    footerNormal
   },
   data () {
     return {

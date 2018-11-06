@@ -15,9 +15,9 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .sibebarNormal {
   background: #fafafa;
+  padding: 10px;
 }
 </style>

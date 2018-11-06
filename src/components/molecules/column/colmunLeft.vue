@@ -33,6 +33,9 @@ export default {
   display: flex;
   .leftSide {
     width: 20%;
+    padding: 10px;
+    background: #fafafa;
+    height: calc( 100vh - 70px);
   }
   .contentWrap {
     width: 80%;
