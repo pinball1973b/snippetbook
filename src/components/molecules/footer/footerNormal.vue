@@ -1,6 +1,6 @@
 <template>
   <footer>
-    hogehoge
+    {{ Copyright }}
   </footer>
 </template>
 
@@ -8,7 +8,10 @@
 export default {
   name: 'footerNormal',
   props: {
-
+    Copyright: {
+      type: String,
+      default: '(c) Copyright'
+    }
   },
   data () {
     return {
